@@ -11,7 +11,7 @@ import java.util.List;
 @Component
 @AllArgsConstructor
 public class Calculator {
-    private List<MathOperation> mathOperationList;
+    private final List<MathOperation> mathOperationList;
 
 
     void run(){
